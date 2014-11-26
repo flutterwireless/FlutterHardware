@@ -1,0 +1,26 @@
+
+Order information:
+white soldermask, blue silkscreen, two sides silk, 1.24mm thickness, 4 layers, gold finishing, electrical testing
+
+*.GTL Layer 1 (top)
+*.G2L Layer 2
+*.G3L Layer 3
+*.GBL Layer 4 (bottom)
+*.GTS Top Soldermask
+*.GBS Bottom Soldermask
+*.GTO Top Silkscreen
+*.GBO Bottom Silkscreen
+*.GKO Board Outline
+*.XLN Drills
+*.MLL Milling (pre-plating)
+
+PCB DESCRIPTION:4 LAYER PCB 1.24 MM nominal
+Copper        1   35 um
+Dielectric  1-2   0.4 mm (e.g. 2x Prepreg 7628 AT05 47% Resin)
+Copper        2   35 um
+Dielectric  2-3   0.3 mm (2 x 2157 49% Resin)
+Copper        3   35 um
+Dielectric  3-4   0.4 mm (e.g. 2x Prepreg 7628 AT05 47% Resin)
+Copper        4   35 um
+
+DE104iML or equivalent substrate (Resin contents around 45%, which gives Er=4.45@1GHz, TanD=0.016)
