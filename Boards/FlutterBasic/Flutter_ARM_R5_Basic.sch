@@ -3439,7 +3439,6 @@ Designed by: Taylor Alexander of Flutter Wireless, Inc.
 Copyright Taylor Alexander 2014</text>
 <wire x1="299.72" y1="160.02" x2="378.46" y2="160.02" width="0.1524" layer="94"/>
 <wire x1="378.46" y1="160.02" x2="378.46" y2="127" width="0.1524" layer="94"/>
-<wire x1="378.46" y1="127" x2="299.72" y2="127" width="0.1524" layer="94"/>
 <wire x1="299.72" y1="127" x2="299.72" y2="160.02" width="0.1524" layer="94"/>
 <text x="355.6" y="129.54" size="1.778" layer="94">I2C Pullups</text>
 <text x="35.56" y="182.88" size="1.778" layer="97">Set for 500mA charging</text>
@@ -3466,6 +3465,7 @@ Flutter Pro: SAM3S2A</text>
 <wire x1="378.46" y1="127" x2="378.46" y2="78.74" width="0.1524" layer="94"/>
 <wire x1="378.46" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="94"/>
 <wire x1="299.72" y1="78.74" x2="299.72" y2="127" width="0.1524" layer="94"/>
+<text x="254" y="7.62" size="3.81" layer="95">Version 1.0</text>
 </plain>
 <instances>
 <instance part="C61" gate="G$1" x="152.4" y="88.9"/>
