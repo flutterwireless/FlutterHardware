@@ -22,10 +22,10 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -38209,7 +38209,8 @@
 <rectangle x1="51.607440625" y1="18.971259375" x2="51.909696875" y2="18.989034375" layer="22" rot="R270"/>
 <rectangle x1="51.758571875" y1="19.780246875" x2="51.794128125" y2="19.798028125" layer="22" rot="R270"/>
 <rectangle x1="51.78524375" y1="19.77135625" x2="51.80301875" y2="19.7891375" layer="22" rot="R270"/>
-<text x="14.986" y="19.812" size="1.27" layer="21" font="vector" ratio="20">FCC ID: XXX-XXXXXX</text>
+<text x="16.002" y="18.542" size="1.27" layer="21" font="vector" ratio="20">Early Backer
+Special Edition</text>
 <hole x="6.858" y="25.908" drill="0.762"/>
 <hole x="7.874" y="25.908" drill="0.762"/>
 <hole x="8.89" y="25.908" drill="0.762"/>
@@ -39423,7 +39424,6 @@ design rules under a new name.</description>
 <vertex x="55.626" y="25.4"/>
 <vertex x="0" y="25.4"/>
 </polygon>
-<via x="48.0568" y="13.3604" extent="1-16" drill="0.3048"/>
 <via x="49.4792" y="13.9954" extent="1-16" drill="0.3048"/>
 <via x="49.4792" y="15.5702" extent="1-16" drill="0.3048"/>
 <via x="49.5046" y="14.7574" extent="1-16" drill="0.3048"/>
@@ -39475,8 +39475,6 @@ design rules under a new name.</description>
 <via x="48.26" y="20.066" extent="1-16" drill="0.3048"/>
 <via x="48.26" y="21.59" extent="1-16" drill="0.3048"/>
 <via x="46.99" y="21.336" extent="1-16" drill="0.3048"/>
-<via x="50.8" y="8.89" extent="1-16" drill="0.3048"/>
-<via x="50.8" y="6.35" extent="1-16" drill="0.3048"/>
 <via x="50.8" y="5.08" extent="1-16" drill="0.3048"/>
 <via x="49.53" y="17.526" extent="1-16" drill="0.3048"/>
 <via x="49.53" y="18.796" extent="1-16" drill="0.3048"/>
@@ -39552,15 +39550,12 @@ design rules under a new name.</description>
 <via x="53.34" y="8.89" extent="1-16" drill="0.3048"/>
 <via x="54.61" y="8.89" extent="1-16" drill="0.3048"/>
 <via x="45.72" y="10.16" extent="1-16" drill="0.3048"/>
-<via x="46.99" y="10.16" extent="1-16" drill="0.3048"/>
 <via x="49.53" y="10.16" extent="1-16" drill="0.3048"/>
 <via x="48.26" y="6.35" extent="1-16" drill="0.3048"/>
 <via x="48.26" y="5.08" extent="1-16" drill="0.3048"/>
 <via x="48.26" y="3.81" extent="1-16" drill="0.3048"/>
-<via x="49.53" y="6.35" extent="1-16" drill="0.3048"/>
 <via x="49.53" y="5.08" extent="1-16" drill="0.3048"/>
 <via x="49.53" y="3.81" extent="1-16" drill="0.3048"/>
-<via x="49.53" y="8.89" extent="1-16" drill="0.3048"/>
 <via x="46.99" y="7.62" extent="1-16" drill="0.3048"/>
 <via x="45.72" y="8.89" extent="1-16" drill="0.3048"/>
 <via x="45.72" y="7.62" extent="1-16" drill="0.3048"/>
@@ -40997,6 +40992,8 @@ design rules under a new name.</description>
 <approved hash="4,1,69989a02035fb6e2"/>
 <approved hash="4,16,998e95adf9038b7e"/>
 <approved hash="4,16,78981558f92eea24"/>
+<approved hash="6,1,6405818a53fddbbe"/>
+<approved hash="6,1,56612678abd7fe37"/>
 <approved hash="1,20,fc4c82b282e3fc1d"/>
 <approved hash="1,20,fd0a83f48223fcdd"/>
 <approved hash="1,20,fdc6833883ebfd15"/>
@@ -41011,8 +41008,6 @@ design rules under a new name.</description>
 <approved hash="6,1,1d701c0800080170"/>
 <approved hash="6,1,19061a6006600506"/>
 <approved hash="6,1,101213000f000c12"/>
-<approved hash="6,1,6405818a53fddbbe"/>
-<approved hash="6,1,56612678abd7fe37"/>
 <approved hash="6,1,f8bc84167f298b80"/>
 <approved hash="4,16,d133534f4cf84e0d"/>
 </errors>
